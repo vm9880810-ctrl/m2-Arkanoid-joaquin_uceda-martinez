@@ -116,3 +116,11 @@ Completa los métodos marcados con `TODO` siguiendo el orden propuesto y respeta
 - Control del flujo de juego (inicialización, loop principal y cierre limpio).
 - Gestión de colisiones y actualización de puntuación/vidas.
 - Apartado opcional: se valorará positivamente añadir niveles extra, mejoras visuales o efectos de sonido siempre que no rompan la estructura base.
+
+NOTAS DE ALUMNO:  
+he usado la ia generativa en el momento de terminar por que al momento de ejecutar me dejaba cargando y no me habria la ventana dej juego, me ha dicho que ponga al principio:
+"""
+import os
+os.environ["SDL_VIDEODRIVER"] = "windows"
+"""
+y ha salido andando.
